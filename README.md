@@ -38,7 +38,7 @@ This cookbook installs the local version of [DynamoDB](http://docs.aws.amazon.co
   <tr>
     <td><tt>['dynamodb-local']['download_url']</tt></td>
     <td>String</td>
-    <td>[http://dynamodb-local.s3-website-us-west-2.amazonaws.com/dynamodb_local_latest](http://dynamodb-local.s3-website-us-west-2.amazonaws.com/dynamodb_local_latest)</td>
+    <td>http://dynamodb-local.s3-website-us-west-2.amazonaws.com/dynamodb_local_latest</td>
     <td><tt>dynamodb-local</tt></td>
   </tr>
   <tr>
