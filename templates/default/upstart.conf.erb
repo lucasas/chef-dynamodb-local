@@ -10,5 +10,5 @@ respawn
 respawn limit 3 30
 
 script
-  exec java -Djava.library.path=<%= @path %>/DynamoDBLocal_lib -jar <%= @path %>/DynamoDBLocal.jar -port <%= @port %> >> <%= @log_dir %>/<%= @port %>.log 2>&1
+exec java -Djava.library.path=<%= @path %>/DynamoDBLocal_lib -jar <%= @path %>/DynamoDBLocal.jar -port <%= @port %> <%= @extra_options %> >> <%= @log_dir %>/<%= @port %>.log 2>&1
 end script
