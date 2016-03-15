@@ -47,6 +47,12 @@ This cookbook installs the local version of [DynamoDB](http://docs.aws.amazon.co
     <td>Port to run on</td>
     <td><tt>8000</tt></td>
   </tr>
+  <tr>
+    <td><tt>['dynamodb-local']['extra_options']</tt></td>
+    <td>String</td>
+    <td>Extra options like -sharedDb, -optimizeDbBeforeStartup, -inMemory, etc</td>
+    <td><tt></tt></td>
+  </tr>
 </table>
 
 ## Usage
