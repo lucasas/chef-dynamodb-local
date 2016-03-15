@@ -30,7 +30,8 @@ template "/etc/init/dynamodb-local.conf" do
     :group => config["user"],
     :log_dir => config["log_dir"],
     :port => config["port"],
-    :path => config["directory"]
+    :path => config["directory"],
+    :extra_options => config["extra_options"]
   })
 end
 
